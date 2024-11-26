@@ -50,3 +50,6 @@ Handlebars.registerHelper("times", function (n, block) {
   for (var i = 0; i < n; ++i) accum += block.fn(i);
   return accum;
 });
+Handlebars.registerHelper("test", function (a) {
+  console.log(a);
+});

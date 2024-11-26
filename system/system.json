@@ -38,8 +38,8 @@
       "path": "languages/fr.json"
     }
   ],
-  "minimumCoreVersion": "0.8.0",
-  "compatibleCoreVersion": "9",
+  "minimumCoreVersion": "11",
+  "compatibleCoreVersion": "12",
   "url": "https://github.com/anvil-vtt/BrokenCompass",
   "manifest": "https://github.com/anvil-vtt/BrokenCompass/releases/latest/download/system.json",
   "download": "https://github.com/anvil-vtt/BrokenCompass/releases/latest/download/brokencompass.zip"

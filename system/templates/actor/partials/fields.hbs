@@ -1,15 +1,15 @@
 {{#*inline "valueIndicator"}}
-  <div class="bc__ac__value-indicator" data-path="{{path}}">
-    <span class="icon-diamond_black_down" data-value="1"></span>
+  <div class="bc__ac__value-indicator" path="{{path}}">
+    <span class="icon-diamond_black_down" value="1"></span>
     {{#greaterThan value 1}}
-      <span class="icon-diamond_black_up" data-value="2"></span>
+      <span class="icon-diamond_black_up" value="2"></span>
     {{else}}
-      <span class="icon-diamond_white_up" data-value="2"></span>
+      <span class="icon-diamond_white_up" value="2"></span>
     {{/greaterThan}}
     {{#greaterThan value 2}}
-      <span class="icon-diamond_black_down" data-value="2"></span>
+      <span class="icon-diamond_black_down" value="2"></span>
     {{else}}
-      <span class="icon-diamond_white_down" data-value="3"></span>
+      <span class="icon-diamond_white_down" value="3"></span>
     {{/greaterThan}}
   </div>
 {{/inline}}

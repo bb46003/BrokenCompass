@@ -45,7 +45,7 @@ export class BCActorSheet extends ActorSheet {
 
   _onChangeFeelingValue(e) {
     e.preventDefault();
-    const target = $(e.currentTarget);
+    const target = e.currentTarget;
     const path = target.data("path");
     const value = target.data("value");
 
@@ -57,7 +57,7 @@ export class BCActorSheet extends ActorSheet {
   _onChangeLuckValue(e) {
     e.preventDefault();
 
-    const target = $(e.currentTarget);
+    const target = e.currentTarget;
     const value = target.data("value");
     if (Number(value) === 1 && this.actor.system.luck.points === 1) {
       this.actor.update({

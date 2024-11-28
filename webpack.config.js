@@ -16,7 +16,7 @@ module.exports = (env) => {
     },
     output: {
       filename: "system.js",
-      path: path.resolve(__dirname, "dist"),
+      path: "C:/Users/bartl/AppData/Local/FoundryVTT/Data/systems/brokencompass",
       publicPath: "/systems/brokencompass/",
     },
     performance: {
